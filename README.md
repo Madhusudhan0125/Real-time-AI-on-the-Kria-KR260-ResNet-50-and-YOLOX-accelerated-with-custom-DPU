@@ -47,6 +47,7 @@ The DPU overlay was created in Vivado 2022.2 with the B4096 architecture.
 - Displays bounding boxes and class labels in real-time
 
 ---
+```markdown
 
 ## Folder Structure 🗂️
 ├── vivado_project/ # Vivado hardware design and .xsa/.bit/.hwh files
@@ -56,6 +57,7 @@ The DPU overlay was created in Vivado 2022.2 with the B4096 architecture.
 ├── kr260_dpu_vivado_screenshots.zip
 └── README.md
 ---
+markdown````
 
 ## Future Work 🔭
 
