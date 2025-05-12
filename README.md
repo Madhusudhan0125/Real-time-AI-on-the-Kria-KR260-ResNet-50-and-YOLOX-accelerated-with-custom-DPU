@@ -48,15 +48,6 @@ The DPU overlay was created in Vivado 2022.2 with the B4096 architecture.
 
 ---
 ## Folder Structure 🗂️
-
-├── vivado_project/
-├── petalinux_resnet/
-├── ubuntu_yolox/
-├── docs/
-├── kr260_dpu_vivado_screenshots.zip
-└── README.md
-
-
 - `vivado_project/`: Vivado hardware design (.xsa, .bit, .hwh)
 - `petalinux_resnet/`: ResNet-50 build and deployment
 - `ubuntu_yolox/`: Python code for YOLOX detection
