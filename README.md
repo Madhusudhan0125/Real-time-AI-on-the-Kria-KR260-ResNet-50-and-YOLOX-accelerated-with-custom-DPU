@@ -73,5 +73,4 @@ markdown````
 - [Vitis AI Documentation](https://xilinx.github.io/Vitis-AI/)
 - [DPU-PYNQ GitHub](https://github.com/Xilinx/DPU-PYNQ)
 - [Kria Robotics Starter Kit](https://www.amd.com/en/design/kria/kr260-robotics-starter-kit.html)
-```markdown
 
