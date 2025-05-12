@@ -25,9 +25,7 @@ Each pipeline demonstrates low-latency inference using shared DPU hardware.
 
 The DPU overlay was created in Vivado 2022.2 with the B4096 architecture.
 
-Unzip `kr260_dpu_vivado_screenshots.zip` and include key screenshots like:
 
-```markdown
 ![Block Design](images/block_design.png)
 ![DPU Config](images/Detailed_view_of_block_design.png)
 ![Reports](images/All_reports.png)
@@ -73,3 +71,5 @@ Unzip `kr260_dpu_vivado_screenshots.zip` and include key screenshots like:
 - [Vitis AI Documentation](https://xilinx.github.io/Vitis-AI/)
 - [DPU-PYNQ GitHub](https://github.com/Xilinx/DPU-PYNQ)
 - [Kria Robotics Starter Kit](https://www.amd.com/en/design/kria/kr260-robotics-starter-kit.html)
+```markdown
+
