@@ -17,7 +17,7 @@ Each pipeline demonstrates low-latency inference using shared DPU hardware.
 
 ## System Architecture 🧩
 
-![System Diagram](docs/architecture_diagram.png)
+![System Diagram](images/All_in_one.png)
 
 ---
 
@@ -28,8 +28,10 @@ The DPU overlay was created in Vivado 2022.2 with the B4096 architecture.
 Unzip `kr260_dpu_vivado_screenshots.zip` and include key screenshots like:
 
 ```markdown
-![Block Design](docs/vivado_block_design.png)
-![DPU Config](docs/dpu_config.png)
+![Block Design](images/block_design.png)
+![DPU Config](images/Detailed_view_of_block_design.png)
+![Reports](images/All_reports.png)
+
 ---
 
 ## Workflow Summaries 📌
