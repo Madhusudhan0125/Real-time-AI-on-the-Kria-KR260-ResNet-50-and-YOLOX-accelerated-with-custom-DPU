@@ -14,7 +14,7 @@ This project implements two edge AI workflows on the Kria KR260 platform using a
 Each pipeline demonstrates low-latency inference using shared DPU hardware.
 
 ---
-
+[![Watch YOLOX-Nano Demo](images/yolox_nano_thumbnail.png)](video/Yolo_realtime_video.mp4)
 ## System Architecture 🧩
 
 ![System Diagram](images/All_in_one.png)
@@ -48,10 +48,10 @@ The DPU overlay was created in Vivado 2022.2 with the B4096 architecture.
 
 ---
 ## Folder Structure 🗂️
-- `vivado_project/`: Vivado hardware design (.xsa, .bit, .hwh)
-- `petalinux_resnet/`: ResNet-50 build and deployment
-- `ubuntu_yolox/`: Python code for YOLOX detection
-- `docs/`: Architecture diagram, screenshots, project PDF
+- `vivado_project/`: DPU.xsa, DPU.bit, dpu.hwh
+- `petalinux_resnet/`: shell.json, dpu-trd-b4096.bit.bin,kr260.dtbo,petalinux-sdimage.wic.gz
+- `ubuntu_yolox/`:real_time_yolox_nano_pt_usb_camera.py, coco2017_classes.txt,yolox_nano_pt.xmodel, dpu.xclbin, dpu.hwh
+- `images/`: Architecture diagram, screenshots, project PDF
 
 ## Future Work 🔭
 
@@ -67,4 +67,4 @@ The DPU overlay was created in Vivado 2022.2 with the B4096 architecture.
 - [Vitis AI Documentation](https://xilinx.github.io/Vitis-AI/)
 - [DPU-PYNQ GitHub](https://github.com/Xilinx/DPU-PYNQ)
 - [Kria Robotics Starter Kit](https://www.amd.com/en/design/kria/kr260-robotics-starter-kit.html)
-
+- [AMD-Pervasive-AI-Developer-Contest](https://github.com/iotengineer22/AMD-Pervasive-AI-Developer-Contest/)
