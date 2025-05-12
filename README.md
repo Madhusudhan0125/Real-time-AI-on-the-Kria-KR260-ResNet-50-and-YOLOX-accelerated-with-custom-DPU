@@ -14,7 +14,7 @@ This project implements two edge AI workflows on the Kria KR260 platform using a
 Each pipeline demonstrates low-latency inference using shared DPU hardware.
 
 ---
-[![Watch YOLOX-Nano Demo](images/yolox_nano_thumbnail.png)](video/Yolo_realtime_video.mp4)
+[![Watch YOLOX-Nano Demo](images/yolox_nano_thumbnail.png)](videos/Yolo_realtime_video.mp4)
 ## System Architecture 🧩
 
 ![System Diagram](images/All_in_one.png)
